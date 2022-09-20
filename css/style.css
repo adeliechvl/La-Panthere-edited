@@ -267,6 +267,7 @@ a:hover {
 .row.row-no-gutters>[class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
+    max-width: 100px;
 }
 
 #bloc-1-hero h1 {
@@ -647,8 +648,9 @@ p {
 /* FOOTER */
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    display: flex;
+    justify-content: center;
+    margin: auto 5px auto 5px;
 }
 
 h2 {
@@ -688,6 +690,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    max-height: 402px;
+    width: 402px;
 }
 
 .portfolio-row {
@@ -757,19 +761,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg-min.webp");
+    background-image: url("/img/dots-bg-min.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg-min.webp");
+    background-image: url("/img/lines-h2-bg-min.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere-min.webp");
+    background-image: url("/img/agence-la-panthere-min.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/picture_compress (2).webp");
+    background-image: url("/img/picture_compress (2).webp");
 }
 
 @media (max-width: 1024px) {
