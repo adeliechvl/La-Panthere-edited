@@ -80,7 +80,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper-min.webp");
+    background: url("/img/texture-paper-min.webp");
     background-size: 280px 280px;
 }
 
@@ -294,8 +294,8 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
     width: 218px;
+    height: 40px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -697,7 +697,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-    max-height: 402px;
+    height: 402px;
     width: 402px;
 }
 
@@ -987,11 +987,6 @@ h4 {
         overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
-    }
-
-    .navbar-brand img {
-        max-height: 40px;
-        width: auto;
     }
 
     .nav-invert .navbar-header {
