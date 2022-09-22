@@ -41,9 +41,12 @@ a:hover {
     position: relative;
 }
 
-.bloc .container {
-    padding-left: 0;
-    padding-right: 0;
+.bloc .container .col-sm-6{
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+    padding-bottom: 25px;
+    align-items:center;
 }
 
 .bloc-lg {
@@ -217,7 +220,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: #414f7e;
+    color: rgb(87, 87, 87);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -457,6 +460,9 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    width: 500px;
+    margin-bottom: 20px;
+    padding: 6px 12px;
 }
 
 .scrollToTop {
@@ -589,15 +595,14 @@ a[data-lightbox]:hover img {
 }
 
 h1,
-h2,
 h3,
 p,
 label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: black;
+    font-weight: 600;
+    color:#575757;
 }
 
 .container {
@@ -623,7 +628,7 @@ a {
 }
 
 p {
-    font-size: 19px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -650,19 +655,21 @@ p {
 .social {
     display: flex;
     justify-content: center;
-    margin: auto 5px auto 5px;
+    margin: 15px 5px auto 5px;
 }
 
 h2 {
     font-size: 22px;
+    font-weight: 600;
     line-height: 1.4em;
+    color: black;
 }
 
 h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333 !important;
+    color: #364577 !important;
 }
 
 .med-width-whitespace {
@@ -685,7 +692,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF !important;
+    color: white !important;
 }
 
 .portfolio-thumb {
@@ -704,7 +711,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(12, 11, 11, 0.589);
     padding: 40px 40px 40px 40px;
 }
 
@@ -726,12 +733,12 @@ h4 {
 }
 
 .tc-white {
-    color: #ffffff !important;
+    color: white !important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF !important;
+    color: black !important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1047,6 +1054,10 @@ h4 {
         padding: 5px;
     }
 
+    .form-control {
+        width: 280px;
+    }
+    
     .close-lightbox {
         display: inline-block;
     }

@@ -2322,7 +2322,7 @@ pre code {
         width: 58.33333333%
     }
     .col-sm-6 {
-        width: 50%
+        width: 100%
     }
     .col-sm-5 {
         width: 41.66666667%
@@ -7682,7 +7682,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #0009;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
