@@ -19,14 +19,17 @@
 	<link rel="shortcut icon" type="image/bmp" href="/img/picture_compress(3).webp">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+	<link rel="preload" fetchpriority="high" as="image" href="/img/dots-bg-min.webp" type="image/webp">
 
-	<script src="./js/jquery-2.1.0.min.js" defer></script>
-	<script src="./js/bootstrap.min.js" defer></script>
-	<script src="./js/blocs.min.js" defer></script>
+	<script src="./js/jquery-2.1.0.js" defer></script>
+	<script src="./js/bootstrap.js" defer></script>
+	<script src="./js/blocs.js" defer></script>
 	<script src="./js/jqBootstrapValidation.js" defer></script>
 	<script src="./js/formHandler.js" defer></script>
+
+	<Cache-Control max-age=31536000></Cache-Control>
 
 	<title>Contact</title>
 </head>
@@ -123,8 +126,9 @@
 
 		<!-- ScrollToTop Button -->
 		<section>
-			<a href="contact.html" class="bloc-button btn btn-d scrollToTop showScrollTop" onclick="scrollToTarget('1')">
-				<span class="fa fa-chevron-up"><p>↑</p></span>
+			<a href="#top" class="bloc-button btn btn-d scrollToTop showScrollTop" onclick="scrollToTarget('1')" 
+			aria-label="Bouton revenir en haut">
+				<span class="fa fa-chevron-up"></span>
 			</a>
 		</section>
 		<!-- ScrollToTop Button END-->
